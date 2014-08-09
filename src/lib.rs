@@ -6,6 +6,8 @@
 Experimental date and time handling for Rust.
 */
 
+#![crate_name = "chrono"]
+
 #![comment = "Date and time library for Rust"]
 #![license = "MIT"]
 
@@ -46,6 +48,7 @@ pub mod date;
 pub mod time;
 pub mod datetime;
 pub mod format;
+pub mod tzfile;
 
 /// The day of week (DOW).
 ///
